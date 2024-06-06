@@ -68,6 +68,14 @@ header form {
   flex: 1;
 }
 
+.input-wrapper label {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  display: block;
+}
+
 header input {
   width: 100%;
   padding: 1.2rem 1.4rem;
